@@ -1,0 +1,27 @@
+Git is a version control system while GitHub is a web based hosting service for git repositories. 
+
+** version control: It is a system which records changes to your file or files over time, 
+so as to recall a specific version of your file(code) if yor mess up your codes at later stages.
+
+-------------------------------------------------------------
+** An os could be devided into two parts
+a. Kernel b. shell
+
+a:: Kernel is the interface of the hardware of your operating system.
+b:: Shell is the UI between a user and kernel to control your sysem.
+
+
+There are two types of shell.
+a. GUI (Graphical user interface) : Interface based on graphics.
+Ex: Windows, Macfinder
+
+b. CLI (command line interface) : Interface based on commands (In text format)
+Ex: git BASH (for Linex like systems) , cmd (for windows), powershell etc.
+
+
+-------------------------
+
+
+
+
+
