@@ -19,7 +19,18 @@ b. CLI (command line interface) : Interface based on commands (In text format)
 Ex: git BASH (for Linex like systems) , cmd (for windows), powershell etc.
 
 
--------------------------
+---------------------------------------------------------------
+The work flow of git scm
+
+                    $git add                     $ git commit -m <message>
+Working directory ------------> staging area -------------------------------> git repo (local repo)
+                            (Intermidiate area)
+                git push -u <remote_name: origin> <branch-name: main>
+git repo -------------------------------------------------------------------> remote repo
+
+♦ Git repo Initializaion 
+♦ After Initializaion of git repo "git" tracks the changes btw the working directory and the git repo
+-------------------------                 
 Step 1: Initializaion of git 
 >git init           // creates a .git folder in your project folder to track the changes
 
@@ -32,7 +43,31 @@ Step 2: Adding your files to local git repositories
 ♫ cheatSheet for ".gitignore" file: https://gist.github.com/jstnlvns/ebaa046fae16543cc9efc7f24bcd0e31
 
 ** before Adding your file, execute the following command to check status
-git sta
+$ git status                # logs details modified files to be commited 
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+  *********** staging all the changes ***********
+  $ git add .         # To add all the changes to the staging area
+  
+  If the file is not staged and you want to get back to your previous changes
+  ► $ git diff <file name>      # logs the change and the its previous version at the last save point
+  ♦♦♦ To rollout the modification (changes) to the last save point
+  ► $ git checkout <file name>
+
+  > step 3 : commit the changes
+
+  $ git commit -m "message log"
+  ♦♦♦ git command to log all the commits ♦♦♦
+  $ git log  logs the previous commits
+
+  > Step 4 pushing your local git repo to github
+  ♦ If it is first time  
+  " $ git add remote <remote_name: origin> <url>"  # steps up the remote repo to be used
+**** afterwards ********
+  ♦ $ git push -u <remote-name: origin> <branch-name: main(default)>
+
+
 
 
 
