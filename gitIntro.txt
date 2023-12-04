@@ -20,8 +20,19 @@ Ex: git BASH (for Linex like systems) , cmd (for windows), powershell etc.
 
 
 -------------------------
+Step 1: Initializaion of git 
+>git init           // creates a .git folder in your project folder to track the changes
 
 
+Step 2: Adding your files to local git repositories
+< git add <fileName> or  > git add . (add all the files)
+
+************ ".gitignore" fiel  ****************
+♦ gitignore - Specifies intentionally untracked files to ignore
+♫ cheatSheet for ".gitignore" file: https://gist.github.com/jstnlvns/ebaa046fae16543cc9efc7f24bcd0e31
+
+** before Adding your file, execute the following command to check status
+git sta
 
 
 
