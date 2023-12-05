@@ -67,7 +67,37 @@ $ git status                # logs details modified files to be commited
 **** afterwards ********
   ♦ $ git push -u <remote-name: origin> <branch-name: main(default)>
 
+  --------------------------------------------------------------------------------------------------
+                                    Git Branching and Merging
 
+Description: While working on a project, we might need to work on a new feature of the project or we might 
+be working on a project bug simultaneously and disturbing the main branch of the project. Hence we need here a new 
+branch which could carry forward our project in a separate direction until we are ready to mearge it to the main 
+branch, which is mostly always production ready. 
+
+Commands: 
+
+♦ To check different branches of the repo
+$ git branch
+  main
+* test-branch      // here asteric marks the current working branch
+
+♦ To create new branch 
+$ git branch <branch-name>
+
+♦ To switch between branches 
+$ git checkout <desired-branch_name>  
+
+************
+Merging of the two branches 
+
+Description: Now to merge the newly developed branch with the main project branch
+at first we need to switch to the main branch first and then follow the given commands
+
+♦ command to merge
+$ git merge test-branch 
+
+# some text modified in the "another branch" and before merging
 
 
 
