@@ -98,6 +98,23 @@ at first we need to switch to the main branch first and then follow the given co
 $ git merge test-branch 
 
 # some text modified in the "another branch" and before merging
+(need some clarification here)
+
+-------------------------------------------------------------------------------
+                        Git forking and Pull request
+
+Description: Git forking is making a copy of a repo to your own repo. But it is diffrent from git cloning as 
+in this we do not own the repo. We may make changes to our copy and after it we could make a pull request to 
+the original repo owner to the original repo. The owner may accept or deny our request depending on the contribution.
+
+♦ It is way of contributing to someone else project 
+♦ You may look in some skills/framework gitrepo to start contributing
+
+******* commands to fork and pull
+To fork an pull there no cli command as it is done from the github plateform.
+We may find the option of fork and then pull request at the github repo.
+
+
 
 
 
